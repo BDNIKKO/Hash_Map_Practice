@@ -27,12 +27,12 @@ public class PrintMeMyHashMap {
 
     public static void main(String[] args) {
         HashMap<String, String> hashmap = new HashMap<>();
-        hashmap.put("first", "1st");
-        hashmap.put("second", "2nd");
-        hashmap.put("third", "3rd");
+        hashmap.put("f.e", "for example");
+        hashmap.put("etc.", "and so on");
+        hashmap.put("i.e", "more precisely");
 
         printKeys(hashmap);
-        printKeysWhere(hashmap, "ir");
-        printValuesOfKeysWhere(hashmap, "ir");
+        printKeysWhere(hashmap, "e");
+        printValuesOfKeysWhere(hashmap, "e");
     }
 }
